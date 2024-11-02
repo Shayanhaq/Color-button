@@ -8,7 +8,7 @@ function App() {
     <>
       <h1 style={{ color: "darkgreen", backgroundColor: "white" }}>Choose a Background Color</h1>
       <div className='sh' style={{ backgroundColor: bgColor, height: '100vh', display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }}>
-        {/* Buttons to change the background color */}
+        
         <button onClick={() => setBgColor('blue')}>Blue</button>
         <button onClick={() => setBgColor('#7eeb17')}>LightGreen</button>
         <button onClick={() => setBgColor('green')}>Green</button>

@@ -13,16 +13,14 @@ body, html {
     background-color: var(--bgColor, white);
   }
   
-  /* Styling the heading */
   h1 {
     color: #333;
     margin-bottom: 20px;
     text-align: center;
   }
   
-  /* Styling the buttons */
   button {
-    background-color: #007bff; /* Default button color */
+    background-color: #007bff; 
     color: white;
     border: none;
     padding: 10px 20px;
@@ -33,18 +31,15 @@ body, html {
     transition: background-color 0.3s ease;
   }
   
-  /* Hover effect */
   button:hover {
     background-color: #0056b3;
   }
   
-  /* Active effect */
   button:active {
     transform: scale(0.98);
     background-color: #004494;
   }
   
-  /* Specific button colors */
   button:nth-child(1) { background-color: blue; }
   button:nth-child(2) { background-color: #7eeb17; }
   button:nth-child(3) { background-color: green; }
